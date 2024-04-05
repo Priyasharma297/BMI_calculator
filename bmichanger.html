@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CHANGER</title>
+    <link rel="stylesheet" href="bmi.css"/>
+</head>
+<center>
+<body style="background-color:darkslategrey;color: aliceblue;">
+    <div class="container">
+       <h1>BMI calculator</h1>
+       <form>
+        <div class="box">
+        <p><label>Height in cm : </label><input type="text" id="height"/></p>
+        <p><label>Weight in kg : </label><input type="text" id="weight"/></p>
+        <button style="background-color: aliceblue;height: 40px;width: 100px; font-weight: bolder;">CALCULATE</button>
+        <p>Your BMI is : </p>
+        <div id="result"></div>
+        </div>
+        <br></br>
+        <div id="guide">
+            <hr style="width: 50%;"></hr>
+            <h3>GUIDE</h3>
+            <p>under-weight = less than 18.6</p>
+            <p>normal-weight = 18.6 and 24.9</p>
+            <p>over-weight = more than 24.9</p>
+        </div>
+       </form>
+    </div>
+</body>
+</center>
+<script src="bmi.js"></script>
+</html>
